@@ -8,6 +8,8 @@
     --bg-color: #f1f1f1;
     --nav-bg-color: #fff;
 
+    --bullet-color: #1e0e62;
+
     /* Secondary colors */
     --black: #444;
 
@@ -31,6 +33,8 @@
 
     --nav-bg-color: #121216;
     --bg-color: #16171b;
+
+    --bullet-color: #EFEFEF;
 
     /* Gradients */
     --top: #121216;
@@ -187,6 +191,28 @@ p {font-weight: var(--fw-regular);}
     gap: 1.25rem;
 }
 
+.list {    
+    margin-left: 2rem;
+}
+
+.list li::before {
+    content: "\2022";
+    color: var(--bullet-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.list li {
+    color: var(--color-2);
+}
+
+.brands-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .footer {
     background-color: var(--nav-bg-color);
     text-align: center;
@@ -204,7 +230,7 @@ p {font-weight: var(--fw-regular);}
         font-size: 120%;
     }
 
-    .subcategories-wrapper {
+    #funcion .subcategories-wrapper {
         grid-template-columns: 1fr 1fr;
     }
 }

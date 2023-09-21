@@ -48,8 +48,9 @@
             <!-- ¿Qué es? -->
             <section id="que-es">
                 <h2 class="subtitle">¿Qué es?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, alias!</p>
-                <img src="./assets/images/gpu.png" alt="Tarjeta de video">
+                <p>La tarjeta gráfica o tarjeta de vídeo es un componente que viene integrado en la placa base del PC o se instala a parte para ampliar sus capacidades. Concretamente, esta tarjeta está dedicada al procesamiento de datos relacionados con el vídeo y las imágenes que se están reproduciendo en el ordenador.</p>
+                <p>Es un componente de un ordenador que puede estar integrado dentro de la placa base, el procesador o ser externo y cuya función es la renderizar las imágenes en la pantalla y ofrecer una visualización de alta calidad, procesando y ejecutando datos gráficos mediante técnicas, características y funciones gráficas avanzadas.</p>
+                <img src="./assets/images/gpu.png" alt="">
             </section>
             <!-- Función principal -->
             <section id="funcion">
@@ -103,6 +104,7 @@
                 <h2 class="subtitle">Partes del componente</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, alias!</p>
             </section>
+            <!-- Voltaje necesario -->
             <section id="voltaje-necesario">
                 <h2 class="subtitle">Voltaje necesario para funcionar</h2>
                 <p>El voltaje necesario para que una GPU funcione puede variar según el modelo y la arquitectura específicos de la GPU. Además, las tarjetas gráficas modernas suelen tener sistemas de administración de energía que ajustan dinámicamente el voltaje según la carga de trabajo para ahorrar energía cuando no se necesita un rendimiento máximo.</p>
@@ -112,13 +114,69 @@
                 <h2 class="subtitle">Tipos</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, alias!</p>
             </section>
+            <!-- Formas de identificar un modelo -->
             <section id="formas-de-identificar-modelo">
                 <h2 class="subtitle">Formas de identificar un modelo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, alias!</p>
+                <p>Para poder identificar un modelo de una tarjeta gráfica, lo primero que tendrás que hacer es checar en que sistema operativo lo harás.</p>
+
+                <div class="subcategories-wrapper">
+                    <div class="subcategory">
+                        <h3 class="subsubtitle">Windows</h3>
+                        <p>Presiona las teclas “Windows” + “R” para abrir la ventana “Ejecutar”. Escribe “dxdiag” en la ventana y presiona “Enter”. Se abrirá un panel de Directx Diagnostic Tool con información detallada sobre tu tarjeta gráfica. En la pestaña “Información de pantalla”, podrá ver el nombre y el fabricante de su tarjeta gráfica.</p>
+                    </div>
+                    <div class="subcategory">
+                        <h3 class="subsubtitle">Linux</h3>
+                        <p>En caso de contar con <b>Linux</b> tendrás que seguir los siguientes pasos</p>
+                        <p>Abre una terminal. Teclea el comando “lspci | grep VGA” y presiona “Enter”. El comando te muestra la información de la tarjeta gráfica, incluyendo el fabricante y el modelo.</p>
+                    </div>
+                    <div class="subcategory">
+                        <h3 class="subsubtitle">Mac OS</h3>
+                        <p>Y finalmente para sistema operativo de <b>Mac</b> o <b>Mac OS</b></p>
+                        <p> Haz clic en el icono de Apple en la parte superior izquierda de la pantalla. Selecciona “Acerca de este Mac”.   Haz clic en System report, Hardware, Graphics/Displays. En la sección “Gráficos”, podrá ver el nombre y fabricante de su tarjeta gráfica.</p>
+                    </div>
+                </div>
             </section>
+            <!-- Marcas -->
             <section id="marcas">
                 <h2 class="subtitle">Marcas</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, alias!</p>
+                <p><b>NVIDIA</b> es una de las marcas más populares de tarjetas gráficas en la actualidad, y con razón. Con sus diversos modelos de tarjetas gráficas Nvidia, ha incorporado nuevas tecnologías para que las funciones de la tarjeta gráfica se multipliquen.</p>
+                
+                <div class="subcategories-section">
+                    <p>Algunas de estas tecnologías son:</p>
+
+                    <div class="subcategory">
+                        <h3 class="subsubtitle">Sistema VRR</h3>
+                        <p>Este sistema es un software que ataca directamente a problemas de sincronización de frame rate entre las consolas o computadoras y nuestras pantallas. El principal problema que aborda el VRR es el conocido screen tearing o desgarre de la pantalla.</p>
+                    </div>
+                    <div class="subcategory">
+                        <h3 class="subsubtitle">Ray Tracing</h3>
+                        <p>Es una tecnología que se encarga de mejorar las iluminaciones, sombras y reflejos de los videojuegos. Las palabras Ray Tracing significan en español trazado de rayos, haciendo referencia a un mucho mejor cálculo de los reflejos y sombras creados por las iluminaciones del entorno. </p>
+                    </div>
+                    <div class="subcategory">
+                        <h3 class="subsubtitle">DLSS y Reflex</h3>
+                        <p>Es una tecnología para reducir la latencia del sistema de nuestro PC, permitiéndole detectar antes las pulsaciones de teclas y los clics de nuestro ratón.</p>
+                    </div>
+                </div>
+
+                <p>En relación calidad-precio, <b>AMD</b> destaca sobre otras marcas en sus gamas bajas, ofreciendo un buen rendimiento a un precio bastante bajo. Eso sí, en gamas altas, hay otras marcas que ofrecen mejores productos a un precio más bajo.</p>
+
+                <p>A fin de ponerse a la par con Nvidia, AMD sacó la arquitectura BIG NAVI. Las novedades más importantes que trae esta arquitectura son: trazado de rayos en los videojuegos, la incorporación de la tecnología Smart Access Memory</p>
+
+                <p>Mejores fabricantes:</p>
+                <ul class="list brands-list">
+                    <li>Asus</li>
+                    <li>MSI</li>
+                    <li>Gigabyte</li>
+                    <li>EVGA</li>
+                    <li>Zotac</li>
+                    <li>PowerColor</li>
+                    <li>PowerColor</li>
+                    <li>PNY</li>
+                    <li>Inno3D</li>
+                    <li>XFX</li>
+                    <li>GAINward</li>
+                    <li>Asrock</li>
+                </ul>
             </section>
             <section id="modelos-gama-media">
                 <h2 class="subtitle">Modelos gama media</h2>
