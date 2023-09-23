@@ -208,6 +208,15 @@ p {font-weight: var(--fw-regular);}
     color: var(--color-2);
 }
 
+.parts-list {
+    max-width: 21.875rem;
+}
+
+.parts-info-wrapper {
+    display: grid;
+    gap: 1rem;
+}
+
 .brands-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -231,6 +240,13 @@ p {font-weight: var(--fw-regular);}
     }
 
     #funcion .subcategories-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* 860px */
+@media (min-width: 53.75rem) {
+    .parts-info-wrapper {
         grid-template-columns: 1fr 1fr;
     }
 }
