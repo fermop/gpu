@@ -243,13 +243,24 @@ p {font-weight: var(--fw-regular);}
         font-size: 120%;
     }
 
-    #funcion .subcategories-wrapper {
+    #funcion .subcategories-wrapper,
+    #caracteristicas .subcategories-wrapper,
+    #tipos .subcategories-wrapper,
+    #formas-de-identificar-modelo .subcategories-wrapper,
+    #modelos-gama-media .subcategories-wrapper,
+    #fallas-comunes .subcategories-wrapper {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 /* 860px */
 @media (min-width: 53.75rem) {
+    #caracteristicas .subcategories-wrapper,
+    #tipos .subcategories-wrapper,
+    #fallas-comunes .subcategories-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .parts-info-wrapper {
         grid-template-columns: 1fr 1fr;
     }
