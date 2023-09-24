@@ -222,6 +222,10 @@ p {font-weight: var(--fw-regular);}
     grid-template-columns: 1fr 1fr;
 }
 
+.img {
+    margin: 1rem 0;
+}
+
 .footer {
     background-color: var(--nav-bg-color);
     text-align: center;
